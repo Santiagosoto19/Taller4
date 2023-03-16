@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #1</title>
+</head>
+<body>
+
+    <div style="color: orange;">
+    <h1>Land of Boxes Order Form</h1>
+    </div>
+
+    <form action="">
+
+
+        <table>
+            <tr>
+                <td style="text-align: right;">Name:</td>
+                <td><input type="text" placeholder="Walaa Brody" pattern="[a-zA-Z\s]*" autofocus><br></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: right;">Email:</td>
+                <td><input type="email" placeholder="w.brody@widget-sales.com" maxlength="30"><br></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: right;">Address:</td>
+                <td><textarea name="" id="" cols="30" rows="10" placeholder="162 Main Road Rondebosh Cape Town"></textarea><br></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: right;">Postocode:</td>
+                <td><input type="text" placeholder="7700" pattern="[0-9]*" minlength="6" maxlength="8"><br></td>
+            </tr>
+
+        </table>
+    
+        <br><br>
+    
+
+    <table border="1">
+        <tr>
+            <th>Product</th>
+            <th>Part Number</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Subtotal</th>
+        </tr>
+
+        <tr>
+            <td>EconoBox</td>
+            <td>LB100</td>
+            <td> <input type="text" pattern="[0-9]*" minlength="1" maxlength="3"  placeholder="3"></td>
+            <td>R5</td>
+            <td><input type="text"  placeholder="R15" pattern="R[0-9]*" minlength="2"></td>
+        </tr>
+
+        <tr>
+            <td>Standar Box</td>
+            <td>LB200</td>
+            <td> <input type="text" pattern="[0-9]*" minlength="1" maxlength="3" placeholder="4"></td>
+            <td>R10</td>
+            <td><input type="text"  placeholder="R40" pattern="R[0-9]*" minlength="2"></td>
+        </tr>
+
+        <tr>
+            <td>Premium box/TD></td>
+            <td>LB300</td>
+            <td> <input type="text" pattern="[0-9]*" minlength="1" maxlength="3"  placeholder="1"></td>
+            <td>R15</td>
+            <td><input type="text"  placeholder="R15" pattern="R[0-9]*" minlength="2"></td>
+        </tr>
+
+        <tr>
+            <td>Deluxe Box/TD></td>
+            <td>LB400</td>
+            <td> <input type="text" pattern="[0-9]*" minlength="1" maxlength="3"  placeholder="0"></td>
+            <td>R20</td>
+            <td><input type="text" pattern="R[0-9]*" minlength="2" ></td>
+        </tr>
+
+        <tr>
+            <td>Super Deluxe Box/TD></td>
+            <td>LB500</td>
+            <td> <input type="text" pattern="[0-9]*" minlength="1" maxlength="3"  placeholder="1"></td>
+            <td>R30</td>
+            <td><input type="text"  placeholder="R30" pattern="R[0-9]*" minlength="2"></td>
+        </tr>
+
+        <tr>
+            <td colspan="5" style="text-align: right;">
+                Total:
+                <input type="text"  placeholder="R100" pattern="R[0-9]*" minlength="2">
+            </td>
+        </tr>
+
+    </table>
+
+        <br><br>
+    
+    <table>
+
+        <tr><th>Credit Card Details</th></tr>
+            
+        <tr>
+            <td>
+            <p>Card Type:</p>
+            <input type="radio" name="targeta"> Mastercard <br>
+            <input type="radio" name="targeta"> Visa <br>
+            <input type="radio" name="targeta"> American Express  <br>  
+            <input type="radio" name="targeta"> Diners Club <br>
+            </td>
+
+            <td>
+                Card Number:
+                <input type="number" placeholder="45645"><br><br>
+
+                Expriry Date:
+                <input type="text" pattern="">
+
+            </td>
+       
+        </tr>
+
+    </table>
+
+  <br><br><br>
+
+        <table>
+            <tr>
+                <th>Delivery Address:</th>
+                 
+            <td> 
+                <textarea name="" id="" cols="30" rows="5" placeholder="162 Main Road Rondebosh Cape Town"></textarea>
+            </td> 
+            </tr>
+    </table>
+
+    <br><br>
+        
+    <input type="submit" value="Send order">
+    <input type="reset" value="Clear form">
+        
+
+
+
+    </form>
+
+ 
+
+
+</body>
+</html>
